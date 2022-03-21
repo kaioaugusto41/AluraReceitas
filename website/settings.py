@@ -78,10 +78,10 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'alura_receita',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost'
+        'NAME': 'd32nojitfirt8h',
+        'USER': 'hspupawncnpelo',
+        'PASSWORD': 'e967e85b9ce9b836aefa167cfb3456c8b1e0348a0d436b6228a4b13f55be4bec',
+        'HOST': 'ec2-3-231-254-204.compute-1.amazonaws.com'
     }
 }
 
