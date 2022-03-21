@@ -5,7 +5,7 @@ from .models import Receita
 
 class ListandoReceitas(admin.ModelAdmin):
     list_display = ('id', 'nome', 'categoria')
-    list_display_links = ('id', 'nome')
+    list_display_links = ('id', )
 
 admin.site.register(Receita, ListandoReceitas)
 
